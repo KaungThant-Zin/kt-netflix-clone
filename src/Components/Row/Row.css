@@ -17,6 +17,8 @@
     width: 100%;
     margin-right: 20px;
     transition: transform 0.46s;
+    border-bottom: 3px solid #e50914;
+    border-radius: 0 0 8px 8px;
 }
 .row-poster-large{
     max-height: 200px;
@@ -24,6 +26,8 @@
     width: 100%;
     margin-right: 20px;
     transition: transform 0.56s;
+    border-bottom: 3px solid #e50914;
+    border-radius: 0 0 8px 8px;
 }
 .row-poster-large:hover{
     transform: scale(1.09);
