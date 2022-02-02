@@ -1,0 +1,77 @@
+.profile-screen{
+    height: 100vh;
+}
+.profile-screen-body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 8%;
+}
+.profile-screen-body h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 2rem 0;
+    border-bottom: 3px solid #282c2d;
+}
+.profile-screen-info img{
+    height: 100px;
+}
+.profile-screen-info{
+    display: flex;
+}
+.profile-screen-detail{
+    margin-left: 22px;
+    flex: 1;
+}
+.profile-screen-detail h2{
+    background-color: gray;
+    color: white;
+    padding: 16px;
+}
+.profile-screen-btn{
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    padding: 0.8rem 10px;
+    color: #fff;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.profile-screen-plan h3{
+    border-bottom: 1px solid #282c2d;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 768px){
+    .profile-screen-body h1{
+        font-size: 50px;
+    }
+    .profile-screen-body{
+        width: 80%;
+        padding-top: 20%;
+    }
+    .profile-screen-info img{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 500px){
+    .profile-screen-body{
+        width: 90%;
+    }
+    .profile-screen-body h1{
+        font-size: 30px;
+    }
+    .profile-screen-detail{
+        margin-left: 8px;
+        font-size: 10px;
+    }
+    .profile-screen-btn{
+        font-size: 10px;
+    }
+}

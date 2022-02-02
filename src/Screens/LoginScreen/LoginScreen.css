@@ -90,15 +90,6 @@
     .login-body h3{
         font-size: 0.7rem;
     }
-    /* .login-input button{
-        padding: 10px 5px;
-        font-size: 13px;
-    }
-    .login-input input{
-        padding: 10px;
-        max-width: 400px;
-        width: 60%;
-    } */
     form {
         display: flex;
         flex-direction: column;
@@ -114,7 +105,7 @@
     .login-input input{
         padding: 20px;
         max-width: 400px;
-        width: 60%;
+        width: 90%;
         margin: 0 auto;
     }
 }

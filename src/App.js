@@ -11,6 +11,7 @@ import ProfileScreen from './Screens/ProfileScreen/ProfileScreen';
 import Loading from './Components/Loading/Loading';
 import HomeScreen from './Screens/HomeScreen/HomeScreen';
 import LoginScreen from './Screens/LoginScreen/LoginScreen';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -42,6 +43,7 @@ function App() {
               </Routes>
             }
           </Router>
+          <Footer />
         </div>
       }
     </>

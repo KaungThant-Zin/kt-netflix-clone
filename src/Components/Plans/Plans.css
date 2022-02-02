@@ -1,0 +1,46 @@
+.plan-detail{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.plan-name{
+    color: lightgray;
+    padding: 10px;
+}
+.plan-name h4,.plan-name h5{
+    font-weight: 400;
+}
+.plan-detail:hover{
+    background-color: darkgrey;
+    border-radius: 10px;
+    transition: background-color 0.8s;
+}
+.plan-btn{
+    padding: 0 2.5rem;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.plan-btn-gray{
+    padding: 0 3rem;
+    background-color:darkgrey;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.plan-btn:hover{
+    opacity: 70%;
+}
+@media screen and (max-width: 600px){
+    .plan-btn{
+        padding: 0 1rem;
+        font-size: 10px;
+    }
+    .plan-btn-gray{
+        padding: 0 1.35rem;
+        font-size: 10px;
+    }
+}

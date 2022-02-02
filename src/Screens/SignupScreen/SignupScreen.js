@@ -52,7 +52,7 @@ const SignupScreen = () => {
                 <h1>Sign In</h1>
                 {/* <span>{loading ? <LoadingSmall /> : null}</span> */}
                 <span className="signup-screen-error">{error ? `${error}` : null}</span>
-                <input ref={emailRef} type="email" placeholder="Email or phone number" />
+                <input ref={emailRef} type="email" placeholder="Email or phone number" defaultValue={localStorage.getItem("email")}/>
                 <input ref={passwordRef} type="password" placeholder="Password" />
                 <button className="signup-btn" onClick={signinHandle} ><span>{loading ? <LoadingSmall /> : 'Sign In'}</span></button>
                 <h4>
